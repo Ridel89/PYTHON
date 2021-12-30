@@ -67,4 +67,30 @@ moto.remove('Ducati')
 print(moto)
 
 
+cars = ['bmv', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
 
+cars = ['bmv', 'audi', 'toyota', 'subaru']
+print(cars)
+print(sorted(cars))
+print(sorted(cars, reverse=True))
+print(cars)
+
+cars.reverse()
+print(cars)
+print(f'lenght of cars = {len(cars)}' )
+
+#loops---------------------------------------------
+musicians = ['Jeff', 'Kurt', 'Jon', 'Hadges']
+
+for musician in musicians:
+	print(musician)
+
+for musician in musicians:
+	print('------')
+	print(musician)
+	print('------')
+print('They are great musicians')
