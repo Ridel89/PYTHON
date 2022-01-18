@@ -141,3 +141,9 @@ friend_foods.append('ice cream')
 print(my_foods)
 print(friend_foods)
 
+#dictionaries-----------------------------------------------------
+
+#input------------------------------------------------------------
+message = input('Tell me something: ')
+print('Thank you! You said: ')
+print(message)
