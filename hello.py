@@ -83,7 +83,7 @@ cars.reverse()
 print(cars)
 print(f'lenght of cars = {len(cars)}' )
 
-#loops---------------------------------------------
+#loops--------------------------------------------------------
 musicians = ['Jeff', 'Kurt', 'Jon', 'Hadges']
 
 for musician in musicians:
@@ -141,3 +141,23 @@ friend_foods.append('ice cream')
 print(my_foods)
 print(friend_foods)
 
+#TUPLE (CORTAGE) aka CONST-------------------------------------------------
+dim = (200, 50)
+print(dim)
+print(dim[0])
+print(dim[1])
+
+for d in dim:
+	print(d)
+
+dim = (23, 78)
+print(dim)
+
+#CONDITIONS-------------------------------------------------
+cars = ['audi' 'bmw', 'Subaru', 'toyta']
+
+for car in cars:
+	if car == 'bmw':
+		print(car.upper())
+	else:
+		print(car.title())
