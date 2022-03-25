@@ -161,3 +161,9 @@ for car in cars:
 		print(car.upper())
 	else:
 		print(car.title())
+#dictionaries-----------------------------------------------------
+
+#input------------------------------------------------------------
+message = input('Tell me something: ')
+print('Thank you! You said: ')
+print(message)
